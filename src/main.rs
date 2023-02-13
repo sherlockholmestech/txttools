@@ -42,7 +42,7 @@ enum Modes {
 
 #[derive(Args)]
 struct Cringe {
-    /// retardation level.  The higher the worse the capitalisation.
+    /// retardation factor (or level).  The higher the worse the capitalisation.
     #[arg(short, long, default_value_t = 8)]
     retard: i32,
     /// The input text
